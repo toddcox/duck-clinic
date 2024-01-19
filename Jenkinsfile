@@ -15,7 +15,7 @@ pipeline {
         git 'https://github.com/todd-duck/duck-clinic.git'
       }
     }
-    stage('Compile') {
+   /* stage('Compile') {
        steps {
          sh 'mvn compile' //only compilation of the code
        }
@@ -51,5 +51,5 @@ pipeline {
         sh "docker rmi $registry:latest"
       }
     }
-  }
+  }*/
 }

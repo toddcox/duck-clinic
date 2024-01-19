@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git clone 'https://github.com/todd-duck/duck-clinic.git'
+        git 'https://github.com/todd-duck/duck-clinic.git'
       }
     }
     stage('Compile') {

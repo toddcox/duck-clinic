@@ -50,6 +50,6 @@ pipeline {
       steps{
         sh "docker rmi $registry:latest"
       }
-    }
-  }*/
+    }*/
+  }
 }

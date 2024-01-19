@@ -15,12 +15,12 @@ pipeline {
         git 'https://github.com/todd-duck/duck-clinic.git'
       }
     }
-   /* stage('Compile') {
+    stage('Compile') {
        steps {
          sh 'mvn compile' //only compilation of the code
        }
     }
-    stage('Test') {
+    /*stage('Test') {
       steps {
         sh '''
         mvn clean install

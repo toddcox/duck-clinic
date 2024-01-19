@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/toddcox/spring-petclinic-jenkins-pipeline.git'
+        git 'https://github.com/todd-duck/duck-clinic.git'
       }
     }
     stage('Compile') {
